@@ -1,0 +1,34 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+    int mark;
+    cin>>mark;
+    if(mark>=90)
+    {
+        cout<<"a grade";
+    
+    }
+    else if(mark>=80)
+    {
+        cout<<"b grade";
+    }
+    else if(mark>=70)
+    {
+        cout<<"c grade";
+    }
+    else if(mark>=60)
+    {
+        cout<<"d grade";
+    }
+    else if(mark>=50)
+    {
+        cout<<"e grade";
+    }
+    else
+    {
+        cout<<"fail";
+    }    
+}
